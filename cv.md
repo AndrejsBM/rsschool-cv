@@ -47,3 +47,19 @@ function calculate(set1) {
 ```
 
 ---
+
+## Work experience
+
+Study and pet projects using CSS, JS, ReactJS, Redux, TypeScript.
+
+### Irrelevant job experience
+
+Electrical engineer, Logistics specialist, Estimator
+
+___
+
+## Education
+
+- **Riga Technical University Computer Technology of Electrotechnology** - 2010 – 2014
+
+___

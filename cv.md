@@ -63,3 +63,11 @@ ___
 - **Riga Technical University Computer Technology of Electrotechnology** - 2010 – 2014
 
 ___
+
+## Languages
+
+- **English** (Pre-Intermediate)
+- **Latvian** (Intermediate)
+- **Russian** (native)
+
+___

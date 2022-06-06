@@ -10,3 +10,20 @@
 - **LinkedIn:** [andrejs-belokurovs](https://linkedin.com/in/andrejs-belokurovs)
 
 ---
+
+## About Me
+
+Andrejs is a self-motivated newbie to IT who is looking for an opportunity to start a career as a front-end developer. Has many years of experience in a team of engineers. Working in stressful situations with tight deadlines is nothing new to him. With a good aptitude to learn a new technologies and technical documentation reading. Currently self-learning, interested in creating and participating in commercially viable scalable projects.
+
+---
+
+## Skills
+
+- **CSS, Sass, BEM, Responsive layout, Parcel, Gulp, Figma** – 1 year
+- **JavaScript** – 8 months
+- **ReactJS** – 5 months
+- **ReduxJS** – 4 months
+- **TypeScript** – 3 months
+- **Basic knowledge of NodeJS, WebPack, REST API, GitHub**
+
+---

@@ -1,3 +1,20 @@
+/*color1: #303642; */
+/*color2: #d2cfcf; */
+/*color3: #6c7079; */
+/*color4: #8f6a4d; */
+/* Fonts Open Sans, Open Sans Light, Montserrat Semi-Bold, Montserrat */
+
 body {
   background-color: aliceblue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.page-header {
+  grid-area: 1 / 4;
+  background-color: black;
 }

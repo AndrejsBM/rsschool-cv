@@ -27,3 +27,36 @@ Andrejs is a self-motivated newbie to IT who is looking for an opportunity to st
 - **Basic knowledge of NodeJS, WebPack, REST API, GitHub**
 
 ---
+
+## Code Example
+
+### Task:
+
+Write a function that takes two sets of arguments of arbitrary length. The return value will be the sum of the values of all of the arguments.
+
+The function should contain at least 1 argument per set.
+
+### Code:
+
+```
+function calculate(set1) {
+  let arg = arguments;
+  return function(set2) {
+    return [...arg, ...arguments].reduce((acc, currNum) => {
+        return (acc += currNum);
+      }, 0);
+  }
+}
+```
+
+---
+
+## Work experience
+
+Study and pet projects using CSS, JS, ReactJS, Redux, TypeScript.
+
+### Irrelevant job experience
+
+Electrical engineer, Logistics specialist, Estimator
+
+---

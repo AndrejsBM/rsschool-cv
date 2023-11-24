@@ -92,7 +92,7 @@
                 let arg = arguments;
                 return function(set2) {
                   return [...arg, ...arguments]
-                  .reduce((acc, currNum) => {
+                  .reduce((acc, currNum) =&gt; {
                       return (acc += currNum);
                     }, 0);
                 }

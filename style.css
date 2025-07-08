@@ -251,6 +251,22 @@ ul {
 }
 /* ==== /EXPERIENCE ==== */
 
+/* ==== PROJECTS ==== */
+
+.projects__link:link {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.projects__link:visited {
+  color: var(--primary-color);
+}
+
+.projects__link:hover {
+  color: rgba(43, 66, 87, 0.5);
+}
+/* ==== /PROJECTS ==== */
+
 /* ==== EDUCATION ==== */
 .education__list {
   list-style: none;

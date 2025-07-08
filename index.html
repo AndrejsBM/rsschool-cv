@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Questrial&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>CV | Andrejs Belokurovs</title>
+</head>
+<body>
+  <div class="outer-wrapper">
+    <div class="inner-wrapper">
+      <header class="main-header">
+        <div class="main-header__text text">
+          <h1 class="text__author">Andrejs<br> Belokurovs</h1>
+          <p class="text__position">Frontend developer</p>
+        </div>
+        <img class="main-header__img" src="./assets/img/avatar.png" alt="Avatar">
+      </header>
+
+      <main class="page-main">
+        <div class="col-1">
+          <article class="about-me">
+            <h2 class="about-me__header">About me</h2>
+            <p class="about-me__text">Andrejs is a self-motivated newbie to IT who is looking for an opportunity to
+              start a career as a
+              front-end
+              developer. Has many years of experience in a team of engineers. Working in stressful situations with tight
+              deadlines is nothing new to him. With a good aptitude to learn a new technologies and technical
+              documentation
+              reading. Currently self-learning, interested in creating and participating in commercially viable scalable
+              projects.</p>
+          </article>
+
+          <article class="skills">
+            <h2>Skills</h2>
+            <ul class="skills__list">
+              <li>CSS, Sass, BEM, Responsive layout, Parcel, Vite, Figma - 1 year</li>
+              <li>JavaScript - 8 months</li>
+              <li>ReactJS - 5 months</li>
+              <li>ReduxJS - 4 months</li>
+              <li>TypeScript - 3 months</li>
+              <li>Basic knowledge of NodeJS, WebPack, REST API, Git</li>
+            </ul>
+          </article>
+
+          <article class="education">
+            <h2>Education</h2>
+            <ul class="education__list">
+              <li>Riga Technical University Computer Technology of Electrotechnology - 2010 – 2014
+              </li>
+            </ul>
+          </article>
+
+          <article class="languages">
+            <h2>Languages</h2>
+            <ul class="languages__list">
+              <li>English (Pre-Intermediate)</li>
+              <li>Latvian (Intermediate)</li>
+              <li>Russian (native)</li>
+            </ul>
+          </article>
+
+        </div>
+
+        <div class="col-2">
+          <article class="contact">
+            <h2>Contact</h2>
+            <ul class="contact__list">
+              <li>Location: Riga, Latvia</li>
+              <li>Email: andrejs.belokurovs91@gmail.com</li>
+              <li><a class="contact__link" href="https://github.com/AndrejsBM">Github</a></li>
+              <li><a class="contact__link" href="https://linkedin.com/in/andrejs-belokurovs">LinkedIn</a></li>
+            </ul>
+          </article>
+
+          <article class="code">
+            <h2>Code Example</h2>
+            <h3>Task:</h3>
+            <p class="code__text">Write a function that takes two sets of arguments of arbitrary length. The return
+              value will be the sum
+              of
+              the values of all of the arguments.</p>
+            <p class="code__text">The function should contain at least 1 argument per set.</p>
+            <h3>Code:</h3>
+            <pre class="code__code"><code>
+              function calculate(set1) {
+                let arg = arguments;
+                return function(set2) {
+                  return [...arg, ...arguments]
+                  .reduce((acc, currNum) => {
+                      return (acc += currNum);
+                    }, 0);
+                }
+              }
+            </code>
+            </pre>
+          </article>
+
+          <article class="projects">
+            <h2 class="projects__header">Project</h2>
+            <a class="projects__link" href="https://sharpbrain.cz/">SharpBrain Landing</a>
+          </article>
+
+          <article class="experience">
+            <h2>Work experience</h2>
+            <p class="experience__text experience__text--first">Study and pet projects using CSS, JS, ReactJS, Redux,
+              TypeScript.
+            </p>
+            <h3>Irrelevant job experience</h3>
+            <p class="experience__text">Electrical engineer, Logistics specialist, Estimator</p>
+          </article>
+        </div>
+      </main>
+      <footer>
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li><a target="_blank" class="footer-nav____link" href="https://github.com/AndrejsBM">Github</a></li>
+            <li>2025</li>
+            <li><a target="_blank" class="footer-nav____link" href="https://rs.school/courses/javascript-ru"><img
+                  src="./assets/img/rs_school_js.svg" alt="RSSchool logo"></a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
